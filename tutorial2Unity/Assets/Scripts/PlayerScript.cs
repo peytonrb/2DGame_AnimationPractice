@@ -19,6 +19,12 @@ public class PlayerScript : MonoBehaviour
         score.text = scoreValue.ToString(); // will be 0 in very first frame due to initializer
     }
 
+    void Update() {
+        if (Input.GetKey(KeyCode.Escape)) {
+            Application.Quit();
+        }
+    }
+
     // FixedUpdate is used with physics events
     // inherent to Unity MonoBehavior
     void FixedUpdate()
