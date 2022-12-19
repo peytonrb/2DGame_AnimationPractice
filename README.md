@@ -1,2 +1,2 @@
-# DIG4715-Spring2021-0377
-Template for Game Production
+# Animation
+Practice coding simple 2D sprite animations that react to key commands
